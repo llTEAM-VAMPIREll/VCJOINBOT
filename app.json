@@ -1,0 +1,30 @@
+{
+  "name": "VAMPIRE VC FIGHT BOT",
+  "description": "A Powerful Telegram Voice Chat Bot",
+  "keywords": ["telegram", "voice", "vc", "music"],
+  "repository": "https://github.com/llTEAM-VAMPIREll/VCJOINBOT",
+  "env": {
+    "API_ID": {
+      "description": "Telegram API ID",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Telegram API HASH",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Bot Token from BotFather",
+      "required": true
+    },
+    "SESSION_STRING": {
+      "description": "Pyrogram String Session",
+      "required": true
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  }
+}
