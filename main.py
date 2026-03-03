@@ -33,7 +33,18 @@ async def main():
 
     register_handlers(bot_client, voice_manager)
 
-    print("Bot Started Successfully 🚀")
+    print("""
+====================================================
+🔥   WELCOME TO VAMPIRE VC FIGHT BOT   🔥
+
+⚡ A VERY POWERFULL BOT FOR VOICE CHAT
+🔊 LOUDLY VOICE AND PREMIUM WORK
+
+🚀 BOT IS NOW ONLINE AND READY TO USE
+====================================================
+""")
+
     await asyncio.Event().wait()
 
-asyncio.run(main())
+if __name__ == "__main__":
+    asyncio.run(main())
